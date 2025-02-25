@@ -1,0 +1,12 @@
+portfolio-website/
+├── public/
+│   ├── css/
+│   │   └── style.css     // Move the styles from the HTML to this file
+│   ├── js/
+│   │   └── main.js       // For JavaScript functionality
+│   ├── images/           // For website images
+│   └── personal-website.html  // Your existing HTML file
+├── server.js             // Backend server
+├── .env                  // For environment variables (don't commit to version control)
+├── package.json          // Node.js dependencies
+└── .gitignore            // To ignore node_modules, .env, etc. 
